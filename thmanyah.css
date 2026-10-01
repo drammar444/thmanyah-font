@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Thmanyah Sans';
+  src: url('https://cdn.jsdelivr.net/gh/drammar444/thmanyah-font@main/thmanyahsans-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Thmanyah Sans';
+  src: url('https://cdn.jsdelivr.net/gh/drammar444/thmanyah-font@main/thmanyahsans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Thmanyah Sans';
+  src: url('https://cdn.jsdelivr.net/gh/drammar444/thmanyah-font@main/thmanyahsans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Thmanyah Sans';
+  src: url('https://cdn.jsdelivr.net/gh/drammar444/thmanyah-font@main/thmanyahsans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Thmanyah Sans';
+  src: url('https://cdn.jsdelivr.net/gh/drammar444/thmanyah-font@main/thmanyahsans-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Apply the font globally to your EasyOrders store */
+body, h1, h2, h3, h4, h5, h6, p, a, span, div, button, input, textarea, label {
+  font-family: 'Thmanyah Sans', sans-serif !important;
+}
